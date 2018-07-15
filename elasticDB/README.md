@@ -9,7 +9,7 @@
 2. install mvn plugin in eclipse
 3. run mvn eclipse:eclipse and mvn dependency:resolve
 
-# elasticDB property (lesson 3)
+# elasticDB property
 1. modify the scripts/set_env.sh to set the MASTER, SLAVE and CANDIDATE
 2. modify the scripts/set_env.sh to set the server that we would like to destroy (to test availability)
 
@@ -23,7 +23,7 @@
 3. Or, from eclipse, in order to test availability and scalability run with -c -d
 4. Or, you can also run from CommandLine accordingly
 
-# elasticDB monitor (lesson 4)
+# elasticDB monitor
 1. run ./enableMonitors.sh, this will run dstats and open windows for MASTER, SLAVE and CANDIDATE
 2. open your browser to point to monitorIp:8080/WebContent/elasticdb.jsp
 
