@@ -47,7 +47,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>com.bittiger.client.ClientEmulator</mainClass>
+							<mainClass>dev.client.ClientEmulator</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
